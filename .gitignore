@@ -1,0 +1,35 @@
+# Python virtual environments
+venv/
+venv_rebuilt/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Personal data and recordings
+data/people.json
+data/*.wav
+reports/
+
+# Whisper model cache
+.cache/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Windows and unrelated files
+*.lnk
+WhatsApp Installer.exe
+Microsoft.Services.Store.winmd
+
+# Local backup and temporary files
+app_backup.py
+report_temp.html
+
+# Duplicate or temporary reports
+Report.pdf
